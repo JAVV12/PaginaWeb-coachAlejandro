@@ -50,9 +50,3 @@ node_modules/
 
 # Local Netlify folder
 .netlify
-
-# Ignorar carpetas comunes de Node
-node_modules/
-
-# Ignorar el archivo específico que causa problemas
-alejandro-valencia/
