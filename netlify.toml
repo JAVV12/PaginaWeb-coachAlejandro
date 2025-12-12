@@ -1,9 +1,18 @@
 [build]
+<<<<<<< HEAD
   command = "npm run build"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
   inputs = {}
+=======
+  base = "alejandro-valencia"
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+>>>>>>> dae2908 (feat: Implementar pantalla de precarga y revelación por scroll)
 
 [build.environment]
   NODE_VERSION = "20"
